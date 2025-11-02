@@ -25,11 +25,13 @@ When a Customer Case is created/updated, the flow checks complaint keywords, **s
 - Works with the same custom **Customer Case** table from CSM Projects 1–2
 
 ## Diagram
-![Flow](Diagrams/Flow Diagaram.png)
+![Flow](Diagrams/CSM_Predictive_Customer_Retention_Flow.png)
 
 ## Example Tests
 | Customer | Short Description | Sentiment | Case Count | Result |
 |---|---|---:|---:|---|
 | John Doe | Repeated complaint about billing delay | Negative | 4 | **High Risk** |
+| Maria Lee | Issue with login | Negative | 2 | **Medium/Low** (configurable) |
+| Alex Smith | Thanks for the help! | Positive | 1 | **Low Risk** |
 | Maria Lee | Issue with login | Negative | 2 | **Medium/Low** (configurable) |
 | Alex Smith | Thanks for the help! | Positive | 1 | **Low Risk** |
